@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="SignUpWindows" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SignUpController">
+   <children>
+      <TextField fx:id="PasswordText" layoutX="268.0" layoutY="258.0" prefHeight="25.0" prefWidth="192.0" promptText="Input Password" />
+      <Label layoutX="142.0" layoutY="262.0" text="Password                     :" />
+      <Label layoutX="140.0" layoutY="222.0" text="Alamat Pegawai           :" />
+      <Label layoutX="140.0" layoutY="183.0" text="No Telepon Pegawai   :" />
+      <TextField fx:id="AlamatPegawaiText" layoutX="268.0" layoutY="218.0" prefHeight="25.0" prefWidth="192.0" promptText="Input Alamat" />
+      <TextField fx:id="NoTeleponPegawaiText" layoutX="269.0" layoutY="179.0" prefHeight="25.0" prefWidth="192.0" promptText="Input Telepon" />
+      <TextField fx:id="NamaPegawaiText" layoutX="268.0" layoutY="140.0" prefHeight="25.0" prefWidth="192.0" promptText="Input Nama" />
+      <Label layoutX="140.0" layoutY="144.0" text="Nama_Pegawai            :" />
+      <Label layoutX="142.0" layoutY="104.0" text="NIP                              :" />
+      <TextField fx:id="NIPText" layoutX="268.0" layoutY="100.0" prefHeight="25.0" prefWidth="192.0" promptText="Input NIP" />
+      <Button fx:id="CancelButton" layoutX="331.0" layoutY="322.0" mnemonicParsing="false" onAction="#CancelButtonClick" text="Cancel">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Glow level="0.15" />
+         </effect>
+      </Button>
+      <Button fx:id="SignupButton" layoutX="217.0" layoutY="322.0" mnemonicParsing="false" onAction="#SignupButtonClick" text="Sign Up">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="499.0" prefWidth="519.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controller.FXMLCalculasiJualBarangController">
+   <children>
+      <Text layoutX="218.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Struk Penjualan Barang" />
+      <TextField fx:id="txtbeli" layoutX="130.0" layoutY="97.0" />
+      <Text layoutX="26.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jumlah Beli" />
+      <Text layoutX="26.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Barang" />
+      <RadioButton layoutX="130.0" layoutY="149.0" mnemonicParsing="false" text="Citatos" />
+      <RadioButton layoutX="130.0" layoutY="170.0" mnemonicParsing="false" text="QTela" />
+      <RadioButton layoutX="130.0" layoutY="191.0" mnemonicParsing="false" text="TehBotolSosro" />
+      <RadioButton layoutX="260.0" layoutY="149.0" mnemonicParsing="false" text="GreenTea" />
+      <RadioButton layoutX="260.0" layoutY="170.0" mnemonicParsing="false" text="Cornetto" />
+      <RadioButton layoutX="260.0" layoutY="191.0" mnemonicParsing="false" text="Walls" />
+      <RadioButton layoutX="362.0" layoutY="191.0" mnemonicParsing="false" text="Sosis Pedas" />
+      <RadioButton layoutX="362.0" layoutY="170.0" mnemonicParsing="false" text="Telur" />
+      <RadioButton layoutX="362.0" layoutY="149.0" mnemonicParsing="false" text="Meses Ceres" />
+      <ToggleButton fx:id="tgbbox" layoutX="128.0" layoutY="324.0" mnemonicParsing="false" text="Box" />
+      <ToggleButton fx:id="tgbpaket" layoutX="128.0" layoutY="287.0" mnemonicParsing="false" text="Paket" />
+      <ToggleButton fx:id="tgbunit" layoutX="130.0" layoutY="251.0" mnemonicParsing="false" text="Unit" />
+      <Button fx:id="btnreset" layoutX="202.0" layoutY="408.0" mnemonicParsing="false" onAction="#btnklik" text="Reset" />
+      <Button fx:id="bayarhitung" layoutX="128.0" layoutY="408.0" mnemonicParsing="false" onAction="#hitungklik" text="Bayar" />
+      <TextField fx:id="txtbayar" layoutX="128.0" layoutY="370.0" />
+      <Label layoutX="31.0" layoutY="374.0" text="Total Bayar" />
+      <Text layoutX="26.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Satuan Jumlah" />
+      <Button fx:id="btnlogout" layoutX="424.0" layoutY="408.0" mnemonicParsing="false" text="LogOut" />
+   </children>
+</AnchorPane>

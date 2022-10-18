@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="209.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text layoutX="381.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YoMart Management Penjualan">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="360.0" fitWidth="365.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/eT-xgF46v4PJLEe5TqiJASF9Dnjt9Jr94C5q9mRwKSI.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="465.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="381.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID_Kasir" />
+      <TextField fx:id="txtid" layoutX="445.0" layoutY="176.0" promptText="Input Id" style="-fx-cursor: text;" />
+      <Text layoutX="381.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <PasswordField fx:id="txtPass" layoutX="445.0" layoutY="210.0" promptText="Input Password" style="-fx-cursor: text;" />
+      <Button fx:id="btnlogin" layoutX="542.0" layoutY="255.0" mnemonicParsing="false" onAction="#loginklik" text="LogIn" />
+      <Button fx:id="btnlsignup" layoutX="422.0" layoutY="255.0" mnemonicParsing="false" onAction="#signupklik" style="-fx-cursor: hand; -fx-background-color: transparant; -fx-text-fill: bold;" text="Sign Up" />
+    </children>
+</AnchorPane>
